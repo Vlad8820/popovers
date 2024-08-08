@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    margin: 100px;
+    padding: 10px 20px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    width: 250px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; /* Закругленные углы */
+    z-index: 1000;
+}
+
+.popover-title {
+    margin: 0;
+    padding: 10px; /* Добавим отступы для заголовка */
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f7f7f7; /* Немного серый фон */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* Добавим нижнюю рамку */
+    border-radius: 10px 10px 0 0; /* Закругленные углы сверху */
+    width: calc(100% - 20px); /* Ширина на всю ширину поповера */
+}
+
+.popover-content {
+    font-size: 12px;
+    padding: 10px; /* Добавим отступы для контента */
+}
